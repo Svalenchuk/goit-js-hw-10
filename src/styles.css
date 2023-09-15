@@ -1,0 +1,43 @@
+li {
+    list-style: none;
+} 
+
+img { 
+   display: block;
+   max-width: 100%;
+ 
+} 
+
+.cat-info {
+   background-color: antiquewhite;  
+   margin-top: 20px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 40px;
+   
+} 
+
+.is-hidden {
+   position: absolute; 
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+.breed-select {
+   display: none;
+   max-width: 400px;
+   margin: auto;
+}  
+
+
+
+ 
